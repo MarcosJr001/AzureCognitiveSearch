@@ -1,0 +1,55 @@
+{
+  "name": "product-index",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true,
+      "retrievable": true
+    },
+    {
+      "name": "product_name",
+      "type": "Edm.String",
+      "retrievable": true,
+      "searchable": true,
+      "analyzer": "en.lucene"
+    },
+    {
+      "name": "description",
+      "type": "Edm.String",
+      "retrievable": true,
+      "searchable": true,
+      "analyzer": "en.lucene"
+    },
+    {
+      "name": "category",
+      "type": "Edm.String",
+      "retrievable": true,
+      "searchable": true,
+      "facetable": true
+    },
+    {
+      "name": "price",
+      "type": "Edm.Double",
+      "retrievable": true,
+      "sortable": true
+    },
+    {
+      "name": "availability",
+      "type": "Edm.Boolean",
+      "retrievable": true,
+      "sortable": true
+    }
+  ],
+  "suggesters": [
+    {
+      "name": "suggestion-suggester",
+      "searchMode": "analyzingInfixMatching",
+      "sourceFields": ["product_name"]
+    }
+  ],
+  "scoringProfiles": [],
+  "cors": {
+    "allowedOrigins": ["*"]
+  }
+}
