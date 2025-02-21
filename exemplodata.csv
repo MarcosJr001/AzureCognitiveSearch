@@ -1,0 +1,12 @@
+id,product_name,description,category,price,availability
+1,Smartphone Galaxy S21,Smartphone de última geração com câmera de 108 MP,Eletrônicos,799.99,true
+2,Headphones Sony WH-1000XM4,Fones de ouvido com cancelamento de ruído e som de alta qualidade,Acessórios,349.99,true
+3,Laptop Dell Inspiron 15,Laptop com processador i7 e 16GB de RAM,Computadores,1099.99,false
+4,Smartwatch Apple Watch 7,Smartwatch com monitoramento de saúde e bateria duradoura,Eletrônicos,399.99,true
+5,Teclado Mecânico Razer,Teclado mecânico com switches ópticos e retroiluminação,Acessórios,129.99,true
+id,product_name,description,category,price,availability
+1,Smartphone Galaxy S21,Smartphone de última geração com câmera de 108 MP,Eletrônicos,799.99,true
+2,Headphones Sony WH-1000XM4,Fones de ouvido com cancelamento de ruído e som de alta qualidade,Acessórios,349.99,true
+3,Laptop Dell Inspiron 15,Laptop com processador i7 e 16GB de RAM,Computadores,1099.99,false
+4,Smartwatch Apple Watch 7,Smartwatch com monitoramento de saúde e bateria duradoura,Eletrônicos,399.99,true
+5,Teclado Mecânico Razer,Teclado mecânico com switches ópticos e retroiluminação,Acessórios,129.99,true
